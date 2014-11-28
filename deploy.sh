@@ -9,4 +9,4 @@ bundle install
 rbenv rehash
 
 bundle exec jekyll build
-rsync -av --delete --progress --exclude="*.sh" --exclude="Gemfile*" ./_site/ $1/
+rsync -av --progress --exclude="*.sh" --exclude="Gemfile*" ./_site/ $1/
