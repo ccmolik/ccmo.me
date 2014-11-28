@@ -2,6 +2,7 @@
 layout: page
 title: +1/-1
 permalink: /plus1minus1/
+comments: true
 ---
 Here's a list of things I like in my world (+1), and a list of things I don't like (-1).
 
