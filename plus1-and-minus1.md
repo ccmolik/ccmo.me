@@ -5,7 +5,7 @@ permalink: /plus1minus1/
 ---
 Here's a list of things I like in my world (+1), and a list of things I don't like (-1).
 
-## Computing
+## computing
 
 Computers in general get a net zero because they're awesome and keep me employed but augh.
 
