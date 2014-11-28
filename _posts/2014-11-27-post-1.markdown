@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Obligatory first post"
+date:   2014-11-27 21:28:11
+categories: administrata
+---
+Well it's been a while since I bothered trying to maintain a website. Every once in a while I get the urge to scribble something down and post it online, only to realize I have zero interest in maintaining something like WordPress (I hate PHP as a general rule.)
+
+Maybe I'll actually update this every once in a while.
+
+I'm doing this with [jekyll](http://jekyllrb.com) because I can dig writing things in markdown out of laziness. Sue me.

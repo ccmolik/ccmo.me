@@ -1,0 +1,12 @@
+# Site settings
+title: ccmo.me
+email: www@chriscmolik.com
+description: "ccmo.me - musings of a silicon valley transplant ops guy"
+baseurl: ""
+url: "http://ccmo.me"
+twitter_username: chris_cmolik 
+github_username:  ccmolik
+
+# Build settings
+markdown: kramdown
+permalink: pretty
