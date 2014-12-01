@@ -33,6 +33,6 @@ Computers in general get a net zero because they're awesome and keep me employed
 - Java SSL: Ever try to explain to someone deploying a Java app how to add a CA, client cert, or client privkey to a java keystore? You know the pain.
 - Jaded OS X haters: I work in a Linux/Unix world. Apple's hardware's overpriced, sure, but the OS isn't terrible. If you hate it for the sole reason that it's an Apple product, you've never used it. I'll admit it can get in the way of getting stuff done, but the whole ecosystem is very well integrated.
 - Markdown syntax: As I write this, I've affirmed the fact that markdown's syntax is annoying and I never get it right on the first try.
-
+- VMWare's VCenter API: Things are super inconsistent and undocumented. I've had to resort to trying to reverse-engineer Perl code too often, and [pyvmomi](https://github.com/vmware/pyvmomi)'s docs are practically nonexistant. Furthermore, the API samples they ship with are terribad. 
 
 That being said, if you like stuff that I mark as -1 and can back up your argument, I'm more than happy to hear it. And I'm more than happy to take a second look. And I'm more than happy to debate on it.
