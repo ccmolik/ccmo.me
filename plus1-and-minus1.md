@@ -30,6 +30,7 @@ Computers in general get a net zero because they're awesome and keep me employed
 - PHP: It's {{ 'now' | date: "%Y" }}. Stop writing php!
    - PHPMyAdmin: more liek PHPMySQLInjection, amirite?
 - NPM: I've never used or had to maintain such a broken packaging system. Scarcely a week goes by without something stupid changing in a package that breaks the CI stuff I work on.
+   - Shitty node.js apps - Just because you can write a a node.js app that uses redis to pull configs to connect to a mongo instance to pull configs to connect to a riak instance to connect to an hbase instance to pull the name of a file to return the contents of; the file will simply say "you're a tool, stop using this shit.", doesn't mean you should.
 - Java SSL: Ever try to explain to someone deploying a Java app how to add a CA, client cert, or client privkey to a java keystore? You know the pain.
 - Jaded OS X haters: I work in a Linux/Unix world. Apple's hardware's overpriced, sure, but the OS isn't terrible. If you hate it for the sole reason that it's an Apple product, you've never used it. I'll admit it can get in the way of getting stuff done, but the whole ecosystem is very well integrated.
 - Markdown syntax: As I write this, I've affirmed the fact that markdown's syntax is annoying and I never get it right on the first try.
