@@ -53,7 +53,7 @@ The biggest thing about Puppet (and configuration management in general) that ne
 I also wish that it spent a bit of time describing how Puppet Server is moving to [a clojure and jRuby-based infrastructure](https://github.com/puppetlabs/puppet-server).  That being said, it calls out the need to run an Apache/Passenger-based setup as opposed to trying to use the built-in WEBrick server in production. 
 
 ## Bottom line
-[Felix Frank's *Puppet Essentials*](http://bit.ly/1zoGxbW) by Packt Publishing is a useful publication for both Puppet veterans and newbies. The no-nonsense style and plethora of useful examples explaining how to use Puppet in the real world cement it in the list of literature I'd recommend to those using Puppet. Packt is running a sale on all e-books for $5 until 6 Jan 2015. At this price, it's totally worth grabbing. Even at the regular price of $26.99 for an e-book copy and $44.99 for dead tree + ebook, I think it's worthwhile. 
+[Felix Frank's *Puppet Essentials*](http://bit.ly/1zoGxbW) by Packt Publishing is a useful publication for both Puppet veterans and newbies. The no-nonsense style and plethora of useful examples explaining how to use Puppet in the real world cement it in the list of literature I'd recommend to those using Puppet. Packt [is running a sale on all e-books for $5 until 6 Jan 2015](http://bit.ly/1wlkK6B). At this price, it's totally worth grabbing. Even at the regular price of $26.99 for an e-book copy and $44.99 for dead tree + ebook, I think it's worthwhile.
 
  Side note: if you've never used Packt before, they provide e-books in formats that'll work with most e-readers and tablets (PDF, ePub, Mobi, and Kindle.) These all come without DRM, and you can download the files via your Packt account whenever. 
 
