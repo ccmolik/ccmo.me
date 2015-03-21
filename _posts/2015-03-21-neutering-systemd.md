@@ -43,6 +43,7 @@ Note that the `ExecStart` line doesn't specify the `-t` flag that tells `named` 
 
 After installing `bind-chroot`, we end up with a systemd unit file that contains the correct flag...
 {% highlight ini %}
+# cat /usr/lib/systemd/system/named-chroot.service
 # Don't forget to add "$AddUnixListenSocket /var/named/chroot/dev/log"
 # line to your /etc/rsyslog.conf file. Otherwise your logging becomes
 # broken when rsyslogd daemon is restarted (due update, for example).
