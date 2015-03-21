@@ -12,7 +12,7 @@ It turns out there's a seperate package called `bind-chroot` that enables `bind`
 
 Specifically, let's take a look at the [systemd unit file](http://www.freedesktop.org/software/systemd/man/systemd.unit.html) for `bind`:
 {% highlight ini %}
-# cat /usr/lib/systemd/system/named.service
+$ cat /usr/lib/systemd/system/named.service
 [Unit]
 Description=Berkeley Internet Name Domain (DNS)
 Wants=nss-lookup.target
@@ -43,7 +43,7 @@ Note that the `ExecStart` line doesn't specify the `-t` flag that tells `named` 
 
 After installing `bind-chroot`, we end up with a systemd unit file that contains the correct flag...
 {% highlight ini %}
-# cat /usr/lib/systemd/system/named-chroot.service
+$ cat /usr/lib/systemd/system/named-chroot.service
 # Don't forget to add "$AddUnixListenSocket /var/named/chroot/dev/log"
 # line to your /etc/rsyslog.conf file. Otherwise your logging becomes
 # broken when rsyslogd daemon is restarted (due update, for example).
