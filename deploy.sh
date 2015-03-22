@@ -7,6 +7,8 @@ eval "$(rbenv init -)"
 rbenv shell 1.9.3-p547
 bundle install
 rbenv rehash
-
+# Do all of the grunt bs
+npm install
+grunt
 bundle exec jekyll build
-rsync -av --progress --exclude="*.sh" --exclude="Gemfile*" ./_site/ $1/
+rsync -av --progress --exclude="*.sh" --exclude="Gemfile*" --exclude=".DS_Store" --exclude="node_modules" ./_site/ $1/
