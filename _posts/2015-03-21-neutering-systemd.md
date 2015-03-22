@@ -5,6 +5,7 @@ date:  2015-03-21 12:00:00
 categories: systemd
 comments: true
 twitter: true
+author: Chris
 ---
 ## Why?
 When spinning up a `named` server on CentOS 7, a coworker and I realized that forcing the stock `bind` package on EL7 to run in a chroot isn't obvious.

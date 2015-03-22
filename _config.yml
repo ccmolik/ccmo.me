@@ -11,3 +11,5 @@ github_username:  ccmolik
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

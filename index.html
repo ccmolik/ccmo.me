@@ -1,16 +1,21 @@
 ---
-layout: default
+layout: page
+description: "Musings of a silicon valley ops guy"
+header-img: "img/sf.png"
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> <a href="{{post.url}}#disqus_thread">comments</a>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+        <a href="{{post.url}}#disqus_thread">comments</a>
       </li>
     {% endfor %}
   </ul>
@@ -29,4 +34,7 @@ s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
 </script>
+
+</div>
+<hr>
 
